@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.API", "Auctionata.OnlineContext.API\Auctionata.OnlineContext.API.csproj", "{C797CC11-3D14-4788-8084-57EBD69CB42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.DomainModel", "Auctionata.OnlineContext.DomainModel\Auctionata.OnlineContext.DomainModel.csproj", "{2D028D4D-BF6A-404C-B087-8BFC944705AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.DomainModel.Tests", "Auctionata.OnlineContext.DomainModel.Tests\Auctionata.OnlineContext.DomainModel.Tests.csproj", "{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.BusinessRules", "Auctionata.OnlineContext.BusinessRules\Auctionata.OnlineContext.BusinessRules.csproj", "{2DB3A8D9-491A-496F-936C-EE950467E89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.BusinessRules.Tests", "Auctionata.OnlineContext.BusinessRules.Tests\Auctionata.OnlineContext.BusinessRules.Tests.csproj", "{242AE067-5AB1-4087-B328-CFC4549F78A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Interface Adapters", "1 - Interface Adapters", "{2A1CFAF0-B7BB-45C7-A2E6-D0332AD76953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application Business Rules", "2 - Application Business Rules", "{51D76091-42E0-4E06-981B-0368243E1807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain Rules", "3 - Domain Rules", "{C00A2BBE-2A02-4736-8F6C-9ED2B6788634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{9B53F9FE-E5C9-4A1E-8847-FFB418F9027B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctionata.OnlineContext.Data", "Auctionata.OnlineContext.Data\Auctionata.OnlineContext.Data.csproj", "{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C797CC11-3D14-4788-8084-57EBD69CB42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C797CC11-3D14-4788-8084-57EBD69CB42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C797CC11-3D14-4788-8084-57EBD69CB42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C797CC11-3D14-4788-8084-57EBD69CB42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D028D4D-BF6A-404C-B087-8BFC944705AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D028D4D-BF6A-404C-B087-8BFC944705AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D028D4D-BF6A-404C-B087-8BFC944705AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D028D4D-BF6A-404C-B087-8BFC944705AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB3A8D9-491A-496F-936C-EE950467E89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB3A8D9-491A-496F-936C-EE950467E89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB3A8D9-491A-496F-936C-EE950467E89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB3A8D9-491A-496F-936C-EE950467E89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242AE067-5AB1-4087-B328-CFC4549F78A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242AE067-5AB1-4087-B328-CFC4549F78A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242AE067-5AB1-4087-B328-CFC4549F78A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242AE067-5AB1-4087-B328-CFC4549F78A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C797CC11-3D14-4788-8084-57EBD69CB42D} = {2A1CFAF0-B7BB-45C7-A2E6-D0332AD76953}
+		{2D028D4D-BF6A-404C-B087-8BFC944705AF} = {C00A2BBE-2A02-4736-8F6C-9ED2B6788634}
+		{32AC2EDB-41B2-4321-BFF3-D20EBAF80F96} = {C00A2BBE-2A02-4736-8F6C-9ED2B6788634}
+		{2DB3A8D9-491A-496F-936C-EE950467E89E} = {51D76091-42E0-4E06-981B-0368243E1807}
+		{242AE067-5AB1-4087-B328-CFC4549F78A1} = {51D76091-42E0-4E06-981B-0368243E1807}
+		{83E4CE4E-27B2-4BB8-A8F3-FB42769B659F} = {9B53F9FE-E5C9-4A1E-8847-FFB418F9027B}
+	EndGlobalSection
+EndGlobal
