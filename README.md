@@ -116,7 +116,7 @@ This is a web api to be consumed by any SPA.
 
 ```JSON
 {
-    itemid: 3
+    itemId: 3
 }
 ```
 
